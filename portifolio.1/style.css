@@ -1,0 +1,204 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+} 
+
+li {
+  list-style: none;
+}
+
+.header-menu{
+   width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  padding: 8px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  height:  60px;
+  background-color: #b3093f;
+} 
+
+.header-menu nav{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.lista-menu {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  align-items: center;
+}
+
+.lista-menu li>a {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: inherit;
+} 
+
+.principal{
+  height: 100vh;
+  display: flex;
+  background-color: #EAEAEA;
+}
+
+.container{
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 960px;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.subcontainer-principal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.nome-completo{
+  font-size: 36px;
+  color: #531b3b;
+  font-weight: 700;
+  height: 45px;
+}
+
+.profissao{
+  color: #c5c0c0;
+  height: 60px;
+} 
+
+.texto-sobre{
+  font-size: 20px;
+  line-height: 32px;
+} 
+
+.article-lista{
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  flex-direction: column;
+}
+
+.topico-principal{
+  font-size: 36px;
+  color: #A5BEFA;
+} 
+
+.lista-item{
+  padding: 32px;
+} 
+
+.lista-titulo{
+  margin-bottom: 8px;
+  font-size: 22px;
+  color: #64b7cc;
+  font-weight: 700;
+}
+
+.lista-local{
+  font-size: 18px;
+  color: #2F80ED;
+}
+ .lista-descricao {
+  font-size: 18px;
+  margin-top: 7px;
+  line-height: 23px;
+  color: #828282;
+  font-weight: 300;
+} 
+
+.section-3{
+  font-size: 50px;
+  color: rgb(177, 152, 152);
+}
+
+.title{
+  font-size: 36px;
+  color: #b5f9f2;
+}
+
+.section-3{
+  font-size: 18px;
+  margin-top: 7px;
+  line-height: 23px;
+  color: #828282;
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+
+.footer{
+  background-color: #b3093f;
+  display: flex;
+  align-items: center;
+  height: 16vh;
+}
+
+
+.lista-footer{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.link-footer{
+  color: #FFF;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.foto-perfil{
+  border-radius: 200px;
+  width: 250px;
+}
+
+
+.contador {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn-like {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.btn-like.like-count {
+  margin-left: 5px;
+}
+
+.btn-like i {
+  margin-right: 5px;
+}
+
+.btn-like.liked i {
+  color: red;
+}
